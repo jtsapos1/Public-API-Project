@@ -116,9 +116,9 @@ address,
 	flex-direction: column;
 }
 
-/*.hidden {
-    display: none;
-}*/
+.hidden {
+	display: none;
+}
 
 /*********Media Queries**********/
 
