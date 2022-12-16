@@ -65,6 +65,9 @@ img {
 }
 
 .text-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 	padding: 15px 15px 15px 7px;
 	font-size: 15px;
 	text-align: left;
@@ -112,10 +115,6 @@ address,
 	cursor: pointer;
 }
 
-.text-container {
-	display: flex;
-	flex-direction: column;
-}
 
 .modal-text-container {
 	display: flex;
