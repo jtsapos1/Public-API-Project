@@ -30,7 +30,7 @@ employees.forEach((employee, index) => {
     // template literals make this so much cleaner!
 employeeHTML += `
 <div class="card" data-index="${index}">
-<img class="avatar" src="${picture.large}" />
+<img class="avatar" src="${picture.large}" alt="employee picture"/>
 <div class="text-container">
 <h2 class="name">${name.first} ${name.last}</h2>
 <p class="email">${email}</p>
