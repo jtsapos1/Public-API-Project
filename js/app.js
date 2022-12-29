@@ -88,5 +88,6 @@ function displayModal(index) {
             overlay.classList.add("hidden");
             });
             
+    
         
 
